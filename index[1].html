@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuickAppliance Care</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('logo.png') no-repeat center center fixed;
+      background-size: contain;
+      color: #000;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #000;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: rgba(255, 255, 255, 0.8);
+    }
+    .section {
+      padding: 40px 20px;
+      background: rgba(255, 255, 255, 0.85);
+    }
+    .section h3 {
+      font-size: 28px;
+      border-bottom: 2px solid #007BFF;
+      padding-bottom: 10px;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>QuickAppliance Care</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#form">Request Repair</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fast, Reliable Appliance Repair – Right When You Need It</h2>
+    <p>Serving Lucknow with expert care for ACs, Coolers, and Home Appliances</p>
+    <p><strong>Call Now: 7607369256</strong></p>
+  </section>
+
+  <section class="section" id="services">
+    <h3>Our Services</h3>
+    <ul>
+      <li><strong>TV Models:</strong> Samsung, LG, Sony, Panasonic, TCL, Philips, Mi, OnePlus</li>
+      <li><strong>AC Models:</strong> Voltas, LG, Blue Star, Daikin, Hitachi, Samsung, Whirlpool, Godrej</li>
+      <li><strong>Fridge Models:</strong> LG, Samsung, Whirlpool, Haier, Godrej, Panasonic, Bosch</li>
+      <li><strong>Washing Machine Models:</strong> IFB, Bosch, LG, Samsung, Whirlpool, Haier, Godrej</li>
+    
+      <li>Refrigerator Repair</li>
+      <li>Washing Machine & Dryer Repair</li>
+      <li>Dishwasher Repair</li>
+      <li>Oven & Stove Repair</li>
+      <li>Microwave Repair</li>
+      <li>AC and Cooler Servicing</li>
+      <li>Appliance Installation</li>
+    </ul>
+  </section>
+
+  <section class="section" id="about">
+    <h3>About Us</h3>
+    <p>QuickAppliance Care has over 10 years of experience in fast, honest, and affordable appliance repair services. We proudly serve homes and businesses across Lucknow.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p><strong>Phone:</strong> 7607369256</p>
+    <p><strong>Email:</strong> ayanshraghuwanshi254@gmail.com</p>
+    <p><strong>Service Area:</strong> Lucknow</p>
+  </section>
+
+  <section class="section" id="form">
+    <h3>Request a Repair</h3>
+    <form action="mailto:ayanshraghuwanshi254@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="Name" required>
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="Contact Number" required>
+
+      <label for="appliance">Appliance to Repair:</label>
+      <input type="text" id="appliance" name="Appliance Details" required>
+
+      <label for="address">Repair Address:</label>
+      <textarea id="address" name="Address" rows="3" required></textarea>
+
+      <label for="message">Additional Message (Optional):</label>
+      <textarea id="message" name="Message" rows="3"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>QuickAppliance Care © 2025 | All rights reserved</p>
+  </footer>
+</body>
+</html>
